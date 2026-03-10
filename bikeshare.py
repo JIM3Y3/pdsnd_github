@@ -6,6 +6,16 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
+def get_valid_input(prompt, valid_options):
+    while True:
+        response = input(prompt).strip().lower()
+        if response in valid_options:
+            return response
+        print("Invalid input. Please try again.")
+
+def print_separator():
+    print('-' * 40)
+
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -128,8 +138,12 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
-        if restart.lower() != 'yes':
+        restart = get_valid_input(
+            "/nWouldyou like to restart? Enter yes or no:"
+            ['yes', 'no']
+        )
+
+        if restart == 'no':
             break
 
 
