@@ -6,6 +6,13 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
+def get_valid_input(prompt, valid_options):
+    while True:
+        response = input(prompt).strip().lower()
+        if response in valid_options:
+            return response
+        print("Invalid input. Please try again.")
+
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
