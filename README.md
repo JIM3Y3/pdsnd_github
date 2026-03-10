@@ -16,6 +16,11 @@ It allows users to filter data by city, month, and day of the week, and then dia
 
 The program demonstrates the use of Python for data analysis and Git/Github for version control.
 
+### How to Run
+Run the program using:
+- python3 bikeshare.py
+- Follow the prompts to select a city, month, and day of the week.
+
 ### Files used
 - bikeshare.py
 - README.md
