@@ -1,7 +1,7 @@
 >**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
 
 ### Date created
-02/06/2026
+03/09/2026
 
 ### Project Title
 Bikeshare Data Analysis Program
@@ -27,6 +27,7 @@ The program demonstrates the use of Python for data analysis and Git/Github for 
 ### Credits
 - https://learn.github.com
 - https://www.w3schools.com/git
+- https://www.gitkraken.com
 
 This project was completed as part of the Udacity Programming for Data Science with Python Nanodegree.
 
