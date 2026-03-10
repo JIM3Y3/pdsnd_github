@@ -21,6 +21,13 @@ Run the program using:
 - python3 bikeshare.py
 - Follow the prompts to select a city, month, and day of the week.
 
+### Features
+- Allows filtering by city
+- Allows filtering by month
+- Allows filtering by day
+- Displays statistics on travel time
+- Shows raw data upon request
+
 ### Files used
 - bikeshare.py
 - README.md
