@@ -13,6 +13,9 @@ def get_valid_input(prompt, valid_options):
             return response
         print("Invalid input. Please try again.")
 
+def print_separator():
+    print('-' * 40)
+
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
